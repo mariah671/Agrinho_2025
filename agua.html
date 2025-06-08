@@ -52,6 +52,16 @@
         </div>
     </nav>
 
+    <audio id="musica" autoplay loop playsinline>
+  <source src="Strings of Fire.mp3" type="audio/mpeg" />
+  Seu navegador não suporta áudio.
+</audio>
+
+<script>
+  const audio = document.getElementById('musica');
+  audio.volume = 1; // volume máximo
+</script>
+
     <audio id="somClick" src="mariah.mp3" preload="auto"></audio>
 
   <script>
@@ -123,6 +133,9 @@
                 </div>
                 <div class="carousel-item">
                     <img src="./assets/image/carrossel2.jpeg" class="d-block w-100" alt="Cultivo">
+                </div>
+                <div class="carousel-item">
+                    <img src="./assets/image/carrosel3.png.jpeg" class="d-block w-100" alt="Cultivo">
                 </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">

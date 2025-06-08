@@ -52,7 +52,15 @@
         </div>
     </nav>
 
-    
+    <audio id="musica" autoplay loop playsinline>
+  <source src="Strings of Fire.mp3" type="audio/mpeg" />
+  Seu navegador não suporta áudio.
+</audio>
+
+<script>
+  const audio = document.getElementById('musica');
+  audio.volume = 1; // volume máximo
+</script>
 
     <audio id="somClick" src="mariah.mp3" preload="auto"></audio>
 
@@ -115,7 +123,7 @@
         <div class="row mt-4">
             <div class="col-md-4">
                 <div class="card" onclick="abrirQuadro('Cultura Local', 'A cultura rural é rica em tradições e festividades que refletem a vida no campo. Celebrações como festas juninas e colheitas são momentos de união e confraternização. Aqui estão algumas informações adicionais sobre a cultura local: 1. Festivais importantes: Festa de São João, Festa da Colheita. 2. Tradições: Danças folclóricas, culinária típica.')">
-                    <img src="./assets/image/cultura_local.jpg" class="card-img-top" alt="Cultura Local">
+                    <img src="./assets/image/1.png.jpeg" class="card-img-top" alt="Cultura Local">
                     <div class="card-body">
                         <h5 class="card-title">Momentos de Conexão</h5>
                         <p class="card-text">As celebrações na zona rural, como festas juninas e colheitas, são momentos de união e fortalecimento de laços comunitários. Elas reúnem famílias e amigos, promovendo a troca de experiências e valorizando a cultura local por meio de danças, músicas e comidas típicas.</p>
@@ -124,7 +132,7 @@
             </div>
             <div class="col-md-4">
                 <div class="card" onclick="abrirQuadro('Sustentabilidade', 'Práticas agrícolas sustentáveis são essenciais para preservar o meio ambiente e garantir a produção de alimentos de qualidade. Exemplos incluem: 1. Agricultura orgânica. 2. Uso de energia renovável. 3. Conservação da água.')">
-                    <img src="./assets/image/sustentabilidade.jpg" class="card-img-top" alt="Sustentabilidade">
+                    <img src="./assets/image/2.png.jpeg" class="card-img-top" alt="Sustentabilidade">
                     <div class="card-body">
                         <h5 class="card-title">Fundamentos da Produção</h5>
                         <p class="card-text">A agricultura na zona rural é essencial para garantir alimentos de qualidade. O cultivo diversificado enriquece a dieta e promove a segurança alimentar. Técnicas tradicionais e modernas preservam o solo e a biodiversidade, tornando a agricultura mais sustentável e resiliente.</p>
@@ -133,7 +141,7 @@
             </div>
             <div class="col-md-4">
                 <div class="card" onclick="abrirQuadro('Inovação', 'A tecnologia tem transformado a agricultura com inovações que aumentam a eficiência e reduzem o impacto ambiental. Exemplos incluem: 1. Sistemas de irrigação de precisão. 2. Uso de drones para monitoramento de culturas. 3. Cultivo vertical.')">
-                    <img src="./assets/image/inovacao.jpg" class="card-img-top" alt="Inovação">
+                    <img src="./assets/image/3.png.jpeg" class="card-img-top" alt="Inovação">
                     <div class="card-body">
                         <h5 class="card-title">Caminhos para o Futuro</h5>
                         <p class="card-text">A inovação na zona rural aumenta a eficiência e reduz o impacto ambiental. Tecnologias como a agricultura de precisão e insumos biológicos ajudam os produtores a se adaptarem às novas demandas, melhorando a produtividade e promovendo uma relação harmoniosa com a natureza.</p>
