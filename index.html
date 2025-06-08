@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zona Rural - Página Inicial</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <link rel="stylesheet" href="estilos.css">
+    <style>
+        .navbar {
+            background-color: #5a2d91; /* Roxo mais escuro */
+        }
+        .cabecalho {
+            background-color: #333333; /* Cinza Escuro */
+        }
+        .cabecalho h1 {
+            color: white; /* Cor do texto do cabeçalho */
+        }
+        .cabecalho h3 {
+            color: yellow; /* Cor Amarela para o subtítulo */
+        }
+        .card {
+            cursor: pointer;
+        }
+        .modal-content {
+            background-color: #f8f9fa; /* Cor de fundo do modal */
+        }
+        footer {
+            background-color: #5a2d91; /* Rodapé na mesma cor da navbar */
+        }
+    </style>
+</head>
+
+<body>
+    <section class="cabecalho text-center" style="padding: 20px 0;">
+        <h1>AGRINHO 2025</h1>
+        <h3>Festejando Conexão Campo Cidade</h3>
+    </section>
+
+    <nav class="navbar navbar-expand-lg navbar-dark shadow">
+        <div class="container">
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ms-auto"> <!-- Alinha os botões à direita -->
+                    <a class="nav-link" href="index.html">Campo Aconchegante</a> <!-- Sinônimo de zona rural -->
+                    <a class="nav-link" href="energia.html">Energia do Campo</a>
+                    <a class="nav-link" href="agua.html">Água Vital</a>
+                    <a class="nav-link" href="producao.html">Produção Sustentável</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    
+
+    <audio id="somClick" src="mariah.mp3" preload="auto"></audio>
+
+  <script>
+    const som = document.getElementById("somClick");
+
+    document.addEventListener("click", () => {
+      som.pause();
+      som.currentTime = 0;
+      som.playbackRate = 2; // <-- aqui aumenta a velocidade
+      som.play().catch((e) => {
+        console.log("Erro ao tocar o som:", e);
+      });
+    });
+  </script>
+
+    <main class="container mt-5">
+        <div class="row mb-4">
+            <div class="col-md-8">
+                <h2>Bem-vindo à Zona Rural</h2>
+<p>A zona rural é um espaço rico em cultura, tradição e recursos naturais. Aqui, exploramos a importância da energia, da água e da produção agrícola para o desenvolvimento sustentável das comunidades rurais. As atividades agrícolas não apenas garantem a segurança alimentar, mas também preservam práticas ancestrais que conectam as gerações passadas às futuras. A vida no campo é marcada por um profundo respeito à natureza e à biodiversidade, refletindo a interdependência entre os seres humanos e o meio ambiente.</p>
+
+<p>Além disso, a zona rural desempenha um papel crucial na produção de alimentos de qualidade e na promoção de uma economia local robusta. Os agricultores, muitas vezes, utilizam técnicas tradicionais e sustentáveis que minimizam o impacto ambiental, como a rotação de culturas e a agroecologia. Essa abordagem não apenas assegura a saúde do solo, mas também contribui para a preservação dos ecossistemas locais. A valorização dos produtos regionais fortalece a identidade cultural e econômica das comunidades rurais, promovendo feiras e mercados que celebram a riqueza da agricultura local.</p>
+
+<p>Por fim, a conexão entre a zona rural e as áreas urbanas é fundamental para o desenvolvimento equilibrado da sociedade. As trocas culturais e econômicas entre esses dois mundos enriquecem a vida de todos, permitindo que as cidades se beneficiem dos recursos e saberes do campo. A educação ambiental e a conscientização sobre a importância da agricultura são essenciais para construir um futuro mais sustentável. Portanto, ao explorar a zona rural, não apenas conhecemos um espaço físico, mas também um universo de histórias, tradições e saberes que moldam a nossa identidade coletiva.</p>
+
+
+            </div>
+            <div class="col-md-4">
+                <img src="./assets/image/zona.rural.png.jpeg" class="img-fluid rounded" alt="Produção Rural">
+        </div>
+  </div>
+  </div>
+  
+            
+<div class="row mb-4">
+    <div class="col-md-4">
+        <img src="./assets/image/zona.rural2.png.jpeg" class="img-fluid rounded" alt="Produção Rural">
+    </div>
+    <div class="col-md-8">
+       <h2>A Riqueza Cultural do Campo</h2>
+<p>A zona rural é um verdadeiro celeiro de diversidade cultural, onde tradições e costumes são preservados e transmitidos de geração para geração. As festas populares, as danças folclóricas e as práticas artesanais são expressões da identidade das comunidades rurais, refletindo a história e a vivência do povo. Essas manifestações culturais não apenas fortalecem os laços comunitários, mas também atraem visitantes e turistas, que buscam experiências autênticas e enriquecedoras. A valorização dessas tradições é essencial para manter viva a herança cultural e promover o turismo sustentável nas áreas rurais.</p>
+
+<p>Além disso, a gastronomia local desempenha um papel central na cultura rural, com pratos típicos que utilizam ingredientes frescos e sazonais. A culinária rural é um reflexo da biodiversidade da região e das práticas agrícolas tradicionais, que respeitam o ciclo da natureza. Ao promover a gastronomia local, as comunidades rurais não apenas preservam suas receitas e modos de preparo, mas também incentivam a valorização dos produtos regionais. Essa conexão entre a comida e a cultura reforça a importância de apoiar a produção local e de consumir de forma consciente.</p>
+
+<p>Por último, a educação e a troca de saberes entre as gerações são fundamentais para a continuidade da cultura rural. Projetos que incentivam a participação dos jovens na preservação das tradições e na prática de atividades culturais são essenciais para manter viva a identidade das comunidades. Workshops de artesanato, aulas de dança e eventos culturais são algumas das iniciativas que podem engajar os mais jovens e garantir que as tradições não se percam com o tempo. Dessa forma, a zona rural se torna não apenas um espaço de produção, mas também um centro vibrante de cultura e aprendizado.</p>
+
+
+    </div>
+</div>
+
+
+        <div class="row mt-4">
+            <div class="col-md-12">
+                <h3>Gráfico de Linhas</h3>
+                <canvas id="graficoLinhas" width="400" height="200"></canvas>
+            </div>
+        </div>
+
+        <div class="row mt-4">
+            <div class="col-md-4">
+                <div class="card" onclick="abrirQuadro('Cultura Local', 'A cultura rural é rica em tradições e festividades que refletem a vida no campo. Celebrações como festas juninas e colheitas são momentos de união e confraternização. Aqui estão algumas informações adicionais sobre a cultura local: 1. Festivais importantes: Festa de São João, Festa da Colheita. 2. Tradições: Danças folclóricas, culinária típica.')">
+                    <img src="./assets/image/cultura_local.jpg" class="card-img-top" alt="Cultura Local">
+                    <div class="card-body">
+                        <h5 class="card-title">Momentos de Conexão</h5>
+                        <p class="card-text">As celebrações na zona rural, como festas juninas e colheitas, são momentos de união e fortalecimento de laços comunitários. Elas reúnem famílias e amigos, promovendo a troca de experiências e valorizando a cultura local por meio de danças, músicas e comidas típicas.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card" onclick="abrirQuadro('Sustentabilidade', 'Práticas agrícolas sustentáveis são essenciais para preservar o meio ambiente e garantir a produção de alimentos de qualidade. Exemplos incluem: 1. Agricultura orgânica. 2. Uso de energia renovável. 3. Conservação da água.')">
+                    <img src="./assets/image/sustentabilidade.jpg" class="card-img-top" alt="Sustentabilidade">
+                    <div class="card-body">
+                        <h5 class="card-title">Fundamentos da Produção</h5>
+                        <p class="card-text">A agricultura na zona rural é essencial para garantir alimentos de qualidade. O cultivo diversificado enriquece a dieta e promove a segurança alimentar. Técnicas tradicionais e modernas preservam o solo e a biodiversidade, tornando a agricultura mais sustentável e resiliente.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card" onclick="abrirQuadro('Inovação', 'A tecnologia tem transformado a agricultura com inovações que aumentam a eficiência e reduzem o impacto ambiental. Exemplos incluem: 1. Sistemas de irrigação de precisão. 2. Uso de drones para monitoramento de culturas. 3. Cultivo vertical.')">
+                    <img src="./assets/image/inovacao.jpg" class="card-img-top" alt="Inovação">
+                    <div class="card-body">
+                        <h5 class="card-title">Caminhos para o Futuro</h5>
+                        <p class="card-text">A inovação na zona rural aumenta a eficiência e reduz o impacto ambiental. Tecnologias como a agricultura de precisão e insumos biológicos ajudam os produtores a se adaptarem às novas demandas, melhorando a produtividade e promovendo uma relação harmoniosa com a natureza.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+<div style="text-align: center; background-color: white; color: black; padding: 20px; font-family: Arial, sans-serif;">
+  <p><strong>A Riqueza Cultural do Campo</strong><br>
+  Fonte: Ministério da Cultura – Cultura Rural<br>
+  <a href="https://www.gov.br/cultura/pt-br/assuntos/cultura-rural" target="_blank" style="color: purple; text-decoration: none;">
+    https://www.gov.br/cultura/pt-br/assuntos/cultura-rural
+  </a></p>
+</div>
+
+    <footer class="text-light text-center py-3 mt-5">
+        <small>&copy; 2025 Agrinho | Site desenvolvido por estudante do Ensino Fundamental com orgulho rural 🌱</small>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script>
+        // Função para abrir o quadro com informações adicionais
+        function abrirQuadro(titulo, conteudo) {
+            const modal = new bootstrap.Modal(document.getElementById('modalInformacoes'));
+            document.getElementById('modalTitulo').innerText = titulo;
+            document.getElementById('modalConteudo').innerText = conteudo;
+            modal.show();
+        }
+
+        // Gráfico de Linhas
+        const ctx = document.getElementById('graficoLinhas').getContext('2d');
+        const graficoLinhas = new Chart(ctx, {
+            type: 'line',
+            data: {
+                labels: ['2010', '2011', '2012', '2013', '2014', '2015', '2016', '2017', '2018', '2019', '2020', '2021', '2022', '2023', '2024'],
+                datasets: [{
+                    label: 'Produção Agrícola',
+                    data: [10, 15, 13, 20, 25, 30, 28, 35, 40, 38, 45, 50, 55, 60, 70],
+                    borderColor: 'rgba(75, 192, 192, 1)',
+                    borderWidth: 2,
+                    fill: false,
+                    tension: 0.4 // Adiciona ondulação ao gráfico
+                }]
+            },
+            options: {
+                responsive: true,
+                scales: {
+                    y: {
+                        beginAtZero: true
+                    }
+                }
+            }
+        });
+    </script>
+
+    <!-- Modal para informações adicionais -->
+    <div class="modal fade" id="modalInformacoes" tabindex="-1" aria-labelledby="modalInformacoesLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modalTitulo">Título</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body" id="modalConteudo">
+                    Conteúdo aqui.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
